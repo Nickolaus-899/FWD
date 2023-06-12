@@ -2,9 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, main, footer {
+            background-color: cornsilk;
+        }
+        #header {
+            width: 1600px;
+            height: 0;
+            margin: auto;
+        }
+        #main {
+            padding: 20px;
+        }
+        #footer {
+            padding-bottom: 500px;
+        }
+        .logo {
+            transform: rotate(18deg);
+        }
+        body {
+            position: fixed;
+        }
+    </style>
 </head>
 <body>
+    <header id="header">
+        <h1 style="margin-left: 10px"><span style="font-family: 'Berlin Sans FB',serif; font-size: 50px">
+            Nikolai Petukhov
+        </span></h1>
+        <div style="margin-left: 35px">
+            <ul type="circle"; style="font-family: 'Kaufmann BT',serif; font-size: 30px">
+                <li>City: Kazan</li>
+                <li>Place of studying: Gymnasium #37 (Kazan) & Innopolis Lyceum</li>
+                <li>Age: 19</li>
+            </ul>
+        </div>
+    </header>
 
+    <main id="main">
+        <div style="position: relative; left: 900px">
+            <p style="font-family: Harrington,serif; font-size: 40px">Photo of myself:</p>
+            <img src="pictures/photo.jpg" width="500" height="500" alt="Photo of myself">
+        </div>
+        <img src="pictures/logo.png" width="492" height="111" alt="Innopolis" class="logo"
+             style="position:absolute; margin-left: 350px; margin-top: -20%">
+
+        <div style="position: absolute; margin-top: -19%; margin-left: 3px">
+            <span style="font-family: 'Old English Text MT', serif; font-size: 40px">Projects:</span>
+            <ul style="position: relative; margin-left: 25px; font-family: 'Segoe Print',serif;
+                font-size: 20px">
+                <li>Mini-game in console (Python)</li>
+                <li>Model of Enigma machine (C++)</li>
+                <li>Computer Architecture Project on FPGA (Verilog)</li>
+            </ul>
+        </div>
+
+    </main>
+    <footer id="footer">
+        <span style="font-family: 'Kristen ITC', serif; position: absolute; margin-top: -3%;
+        margin-left: 45px">Here are some links:</span>
+        <a href="https://github.com/Nickolaus-899/FWD">
+            <img src="pictures/git.png" alt="GitHub" width="50" height="50"
+            style="position: absolute; margin-left: 50px">
+        </a>
+
+        <a href="https://t.me/Nickolaus_SDR">
+            <img src="pictures/telegram.png" alt="Telegram" width="50" height="50"
+            style="position: absolute; margin-left: 120px">
+        </a>
+
+        <a href="https://mail.ru">
+            <img src="pictures/email.svg" alt="Email" width="50" height="50"
+                 style="position: absolute; margin-left: 190px"
+        </a>
+    </footer>
 </body>
 </html>
