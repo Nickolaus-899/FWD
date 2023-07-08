@@ -10,7 +10,7 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		paths: {
-			base: dev ? '' : '/Nickolaus-899/FWD.git',
+			base: dev ? '' : '/Nickolaus-899/FWD',
 
 		},
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

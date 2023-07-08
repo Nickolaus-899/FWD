@@ -14,7 +14,7 @@ import { base } from '$app/paths';
         <div class="card-wrapper">
 
             <div class="card">
-                <a href="{base}/enigma" class="card-link">
+                <a href="{base}/" class="card-link">
                     <img class="card-img" src={enigma} alt="Enigma">
                     <h3 class="card-title">Model of Enigma Machine</h3>
                     <p>Written in C++</p>
@@ -22,7 +22,7 @@ import { base } from '$app/paths';
             </div>
 
             <div class="card">
-                <a href="/" class="card-link">
+                <a href="{base}/" class="card-link">
                     <img class="card-img" src={tank} alt="Mini-Game">
                     <h3 class="card-title">Mini-Game in console</h3>
                     <p>Written in Python</p>
@@ -30,7 +30,7 @@ import { base } from '$app/paths';
             </div>
 
             <div class="card">
-                <a href="/" class="card-link">
+                <a href="{base}/" class="card-link">
                     <img class="card-img" src={fpga} alt="FPGA">
                     <h3 class="card-title">FPGA Project (MemGame)</h3>
                     <p>Written in Verilog</p>
@@ -38,7 +38,7 @@ import { base } from '$app/paths';
             </div>
 
             <div class="card">
-                <a href="/" class="card-link">
+                <a href="{base}/" class="card-link">
                     <img class="card-img" src={telegram} alt="Telegram Bot">
                     <h3 class="card-title">InnoBookingBot</h3>
                     <p>Written in Java, Flutter, Kotlin</p>

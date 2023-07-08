@@ -19,7 +19,7 @@
                     Link to the Project
                 </a>
 
-                <a href="{base}/main" class="footer-button enigma-button">
+                <a href="{base}/" class="footer-button enigma-button">
                     Back
                 </a>
             </div>
