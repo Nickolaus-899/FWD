@@ -11,12 +11,8 @@ import MainPage from "./components/MainPage.svelte";
 </script>
 
 <div>
-    <Projects/>
-    <ButtonToJoke/>
-
     <Router>
         <Route path="/{base}" component={MainPage}></Route>
-        <!--        <Route path="{base}/main"><Header/><App/></Route>-->
         <Route path="/{base}/enigma" component={Enigma}></Route>
         <Route path="/{base}/comic" component={Joke}></Route>
     </Router>
