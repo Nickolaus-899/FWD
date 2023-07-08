@@ -9,7 +9,7 @@
     <div class="container">
         <h1 class="project-header">Model of Enigma Machine</h1>
         <div class="project-img">
-            <img src={enigma} alt="Enigma Picture">
+            <img src={enigma} alt="">
         </div>
 
         <div class="project-description">
