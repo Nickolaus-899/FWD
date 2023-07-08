@@ -13,7 +13,6 @@
 </script>
 
 <div>
-    <App/>
     <slot/>
     <Router>
         <Route path="/{base}" component={MainPage}></Route>
