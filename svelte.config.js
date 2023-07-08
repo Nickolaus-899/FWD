@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import {dev} from "$app/environment";
+
+const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,7 +10,8 @@ const config = {
 	preprocess: vitePreprocess(),
 	kit: {
 		paths: {
-			base: dev ? '' : 'https://github.com/Nickolaus-899/FWD',
+			base: dev ? '' : '/Nickolaus-899/FWD.git',
+
 		},
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
 		// If your environment is not supported or you settled on a specific environment, switch out the adapter.

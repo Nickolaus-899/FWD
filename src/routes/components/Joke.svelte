@@ -4,6 +4,8 @@
     import type {ID} from "../types";
     import type {Joke} from "../types";
 
+    import { base } from '$app/paths';
+
     export const myEmail: string = 'n.petukhov@innopolis.university'
 
 
@@ -60,7 +62,7 @@
             {releasedElement}
         </p>
 
-        <a href="/main" class="api-button footer-button">
+        <a href="{base}/main" class="api-button footer-button">
             Back
         </a>
     </div>
