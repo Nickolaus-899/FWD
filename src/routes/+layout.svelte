@@ -9,15 +9,16 @@
     import App from "./App.svelte";
     import Enigma from "./Enigma.svelte";
     import { base } from '$app/paths';
+    import MainPage from "./components/MainPage.svelte";
 </script>
 
 <div>
     <App/>
 
     <Router>
-        <Route path="/{base}"><Header/><Projects/></Route>
+        <Route path="/{base}" component={MainPage}></Route>
         <!--        <Route path="{base}/main"><Header/><App/></Route>-->
-        <Route path="/{base}/enigma"><Enigma/></Route>
-        <Route path="/{base}/comic"><Joke/></Route>
+        <Route path="/{base}/enigma" component={Enigma}></Route>
+        <Route path="/{base}/comic" component={Joke}></Route>
     </Router>
 </div>

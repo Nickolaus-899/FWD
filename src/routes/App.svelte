@@ -15,10 +15,10 @@ import MainPage from "./components/MainPage.svelte";
     <ButtonToJoke/>
 
     <Router>
-        <Route path="/{base}"><MainPage/></Route>
+        <Route path="/{base}" component={MainPage}></Route>
         <!--        <Route path="{base}/main"><Header/><App/></Route>-->
-        <Route path="/{base}/enigma"><Enigma/></Route>
-        <Route path="/{base}/comic"><Joke/></Route>
+        <Route path="/{base}/enigma" component={Enigma}></Route>
+        <Route path="/{base}/comic" component={Joke}></Route>
     </Router>
 
     <Footer/>
