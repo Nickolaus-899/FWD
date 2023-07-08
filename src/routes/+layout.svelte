@@ -12,12 +12,12 @@
 </script>
 
 <div>
+    <App/>
+
     <Router>
-        <Route path="/{base}/"><Header/><App/></Route>
-<!--        <Route path="{base}/main"><Header/><App/></Route>-->
+        <Route path="/{base}"><Header/><Projects/></Route>
+        <!--        <Route path="{base}/main"><Header/><App/></Route>-->
         <Route path="/{base}/enigma"><Enigma/></Route>
         <Route path="/{base}/comic"><Joke/></Route>
     </Router>
-
-    <Footer/>
 </div>
