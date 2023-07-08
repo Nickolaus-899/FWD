@@ -14,7 +14,7 @@ import { base } from '$app/paths';
         <div class="card-wrapper">
 
             <div class="card">
-                <a href="{base}/" class="card-link">
+                <a href="{base}/enigma" class="card-link">
                     <img class="card-img" src={enigma} alt="Enigma">
                     <h3 class="card-title">Model of Enigma Machine</h3>
                     <p>Written in C++</p>
