@@ -3,7 +3,7 @@
 </script>
 
 <div class="enigma-link">
-    <a href="/{base}/comic" class="footer-button api-button">
+    <a href="{base}/comic" class="footer-button api-button">
         See Joke
     </a>
 </div>

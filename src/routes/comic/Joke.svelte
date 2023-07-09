@@ -6,7 +6,7 @@
 
     import { base } from '$app/paths';
 
-    export const myEmail: string = 'n.petukhov@innopolis.university'
+    export const myEmail = 'n.petukhov@innopolis.university'
 
 
 
@@ -62,7 +62,7 @@
             {releasedElement}
         </p>
 
-        <a href="/{base}/" class="api-button footer-button">
+        <a href="/{base}" class="api-button footer-button">
             Back
         </a>
     </div>
