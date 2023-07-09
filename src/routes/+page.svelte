@@ -1,7 +1,6 @@
 <script>
     import App from "./App.svelte";
 
-    import "./../css/main.css"
 </script>
 
 
