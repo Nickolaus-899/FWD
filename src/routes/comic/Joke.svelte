@@ -62,7 +62,7 @@
             {releasedElement}
         </p>
 
-        <a href="/{base}" class="api-button footer-button">
+        <a href="{base}/" class="api-button footer-button">
             Back
         </a>
     </div>
