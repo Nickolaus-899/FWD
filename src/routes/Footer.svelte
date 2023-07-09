@@ -1,7 +1,7 @@
 <script>
-import git from "../../images/footer/git.png";
-import tgIcon from "../../images/footer/telegram.png";
-import email from "../../images/footer/email.svg";
+import git from "../images/footer/git.png";
+import tgIcon from "../images/footer/telegram.png";
+import email from "../images/footer/email.svg";
 </script>
 
 <div class="footer">

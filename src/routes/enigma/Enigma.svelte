@@ -1,5 +1,5 @@
 <script lang="ts">
-    import enigma from "./../images/projects/enigma/enigma2.jpg"
+    import enigma from "../../images/projects/enigma/enigma2.jpg"
     import { base } from '$app/paths';
 </script>
 

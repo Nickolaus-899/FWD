@@ -1,8 +1,8 @@
 <script lang="ts">
-import enigma from "../../images/portfolio/enigma.jpg";
-import tank from "../../images/portfolio/tank2.png";
-import fpga from "../../images/portfolio/fpga.png";
-import telegram from "../../images/portfolio/telegram.png";
+import enigma from "../images/portfolio/enigma.jpg";
+import tank from "../images/portfolio/tank2.png";
+import fpga from "../images/portfolio/fpga.png";
+import telegram from "../images/portfolio/telegram.png";
 
 import { base } from '$app/paths';
 </script>
